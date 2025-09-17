@@ -1,0 +1,18 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Build results
+bin/
+obj/
+
+# ASP.NET Core
+appsettings*.json
+
+# Others
+*.log
+*.tmp
+*.cache
+*.db
+*.sqlite
