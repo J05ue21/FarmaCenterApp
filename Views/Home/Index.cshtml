@@ -1,4 +1,4 @@
-﻿@{
+@{
     ViewData["Title"] = "Home Page";
 }
 
@@ -10,6 +10,7 @@
         <a class="btn btn-primary m-2" href="/Productos">🗂 Ver Productos</a>
         <a class="btn btn-success m-2" href="/Productos/Create">➕ Agregar Producto</a>
     </div>
+</div>
 @using (Html.BeginForm("Index", "Productos", FormMethod.Get))
 {
         <div class="input-group mb-4">
@@ -26,18 +27,10 @@
 
                 <div class="carousel-item active">
                     <img src="/energizante.jpg" class="d-block w-100" alt="Farmacia 1">
-                </div>                
-
-                <div class="carousel-item">
-                    <img src="/Cebion-efervescente-naranja.png" class="d-block w-100" alt="vitamina Cebion">
                 </div>
 
                 <div class="carousel-item">
                     <img src="/pediasure.png" class="d-block w-100" alt="Farmacia 2">
-                </div>
-
-                <div class="carousel-item">
-                    <img src="/centrum-family.jpg" class="d-block w-100" alt="vitamina C">
                 </div>
 
                 <div class="carousel-item">
